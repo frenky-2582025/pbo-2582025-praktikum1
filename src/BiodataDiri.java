@@ -23,5 +23,9 @@ public class BiodataDiri {
         System.out.print("Masukkan Asal Kota: ");
         String asalKota = scanner.nextLine();
 
+        System.out.println("Halo! Nama Saya " + nama + ", NIM " + nim + ", umur saya " + umur + " tahun. Tinggi saya " + tinggi + " cm. Saya berasal dari " + asalKota + ".");
+
+        scanner.close();
+
     }
 }
